@@ -34,12 +34,12 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
 
     @Override
     public void setBeanName(String name) {
-        System.out.println("##   My Bean Name  is   "+name);
+        System.out.println("##  My Bean Name  is   "+name);
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("##   The Application Context has been set");
+        System.out.println("##  The Application Context has been set");
     }
 
     @PostConstruct
