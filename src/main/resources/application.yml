@@ -1,0 +1,14 @@
+rizvi:
+  jms:
+    username: JMS
+    password: password
+    url: some-jms-URL
+
+---
+
+spring:
+    profiles: de
+rizvi:
+  jms:
+    username: JMS Username $$$$$ German
+
